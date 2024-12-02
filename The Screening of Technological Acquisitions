@@ -1,0 +1,9 @@
+For screening, this research designs two sets and uses Regular Expression (RE) in Python to identify the technological acquisitions from all the acquisition contracts.
+The identification process of technological acquisitions follows three steps.
+
+First, we crawl The Administrative Measures for the Recognition of High-tech Enterprises issued by the Ministry of Science and Technology, the Ministry of Finance, and the General Administration of Taxation in China, from the website of the Ministry of Science and Technology of China. In 2016, to intensify support for science and technology firms and promote economic upgrading and development, the Ministry of Science and Technology, the Ministry of Finance, and the State Administration of Taxation of China revised the Administrative Measure for Recognition of High and New Technology Enterprises, including the appendix Fields of High and New Technology that the State Emphasizes and Supports., which is the authoritative data source for our corpus of technology and innovation.
+
+Second, we utilize word segmentation analysis on a large volume of unstructured data to identify keywords. After screening the keywords, we select those associated with “technology”, thereby forming Set A.
+
+Third, Set B is the acquisitions of Chinese listed firms from 2009 to 2022. Based on the keywords in Set A as the filtering criteria, we attempt to filter out the acquisition samples in Set B that contain the keywords in Set A, serving as technological acquisition samples.
+
